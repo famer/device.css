@@ -1,0 +1,7 @@
+title: Device.css
+description: Device.css is a tool helping you display device on page with pure css for web designers
+baseurl: "/device.css"
+url: "http://famer.github.io/"
+
+# Build settings
+markdown: kramdown

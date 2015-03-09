@@ -1,0 +1,41 @@
+.iPhone4s {
+border-top: 60px solid #f8f8f8;
+border-bottom: 60px solid #f8f8f8;
+border-left: 10px solid #f8f8f8;
+border-right: 10px solid #f8f8f8;
+position: relative;
+right: 5px;
+width: 300px;
+height: 550px;
+padding: 2px;
+box-sizing: border-box;
+background: #e5e5e5;
+border-radius: 35px;
+box-shadow: 0 0 0 4px #fcfcfc,0px 0 0 8px #d9dbdc,0px 0 1px 8px rgba(0,0,0,.4),0px 0 30px 8px rgba(0,0,0,.1),inset 0 0 0 2px rgba(0,0,0,.4);
+transition: right .3s ease;
+}
+
+.iPhone4s::before {
+content: '';
+display: block;
+position: absolute;
+height: 40px;
+width: 3px;
+top: 50px;
+left: -22px;
+background: #d9dbdc;
+box-shadow: 0 50px 0 0 #d9dbdc,321px 0 0 0 #d9dbdc,4px -61px 0 1px #d9dbdc,4px -70px 0 1px rgba(0,0,0,.1),317px -61px 0 1px #d9dbdc,317px -70px 0 1px rgba(0,0,0,.1),4px 350px 0 1px #d9dbdc,4px 360px 0 1px rgba(0,0,0,.1),317px 350px 0 1px #d9dbdc,317px 360px 0 1px rgba(0,0,0,.1);
+}
+
+.iPhone4s::after {
+content: '';
+display: block;
+position: absolute;
+border-radius: 100px;
+height: 7px;
+width: 7px;
+top: -50px;
+left: 136px;
+background: #3c3d3d;
+box-shadow: -35px 18px 0 1px #3c3d3d,-18px 18px 0 -2px #3c3d3d,-16px 18px 0 -2px #3c3d3d,-14px 18px 0 -2px #3c3d3d,-12px 18px 0 -2px #3c3d3d,-10px 18px 0 -2px #3c3d3d,-8px 18px 0 -2px #3c3d3d,-6px 18px 0 -2px #3c3d3d,-4px 18px 0 -2px #3c3d3d,-2px 18px 0 -2px #3c3d3d,0px 18px 0 -2px #3c3d3d,18px 18px 0 -2px #3c3d3d,16px 18px 0 -2px #3c3d3d,14px 18px 0 -2px #3c3d3d,12px 18px 0 -2px #3c3d3d,10px 18px 0 -2px #3c3d3d,8px 18px 0 -2px #3c3d3d,6px 18px 0 -2px #3c3d3d,4px 18px 0 -2px #3c3d3d,2px 18px 0 -2px #3c3d3d,0px 508px 10px 5px rgba(255,255,255,.5),0px 508px 0 16px rgba(0,0,0,.04);
+}
