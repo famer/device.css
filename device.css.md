@@ -1,7 +1,7 @@
 ---
 layout: page
 #title: Device.css
-permalink: /device
+permalink: /foldernote.html
 ---
 
 ### About
