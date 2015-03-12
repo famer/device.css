@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Device.css
-permalink: /
+#title: Device.css
+permalink: /device
 ---
 
 ### About
@@ -18,7 +18,7 @@ Example of usage
 
 #### Result
 
-<div class="iPhone4s"><img src="background/Places.png"/></div>
+<div class="iPhone4s"><img src="background/screencast.gif"/></div>
 
 ### Usage
 
