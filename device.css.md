@@ -17,8 +17,9 @@ Example of usage
 ```
 
 #### Result
-
-<div class="iPhone4s"><img src="background/screencast.gif"/></div>
+<div class="iphone-6 white" style="font-size: 4px">
+	<img src="background/screencast.gif"/>
+</div>
 
 ### Usage
 
