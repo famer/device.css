@@ -17,7 +17,10 @@ Example of usage
 ```
 
 #### Result
-<div class="iphone-6 white" style="font-size: 4px">
+<div class="iphone-6 white" style="font-size: 4px; float: left">
+	<img src="background/screencast.gif"/>
+</div>
+<div class="iphone-6 black" style="font-size: 4px; float: left; clear: right">
 	<img src="background/screencast.gif"/>
 </div>
 
