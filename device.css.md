@@ -24,7 +24,7 @@ Example of usage
 	<img src="background/screencast.gif"/>
 </div>
 
----
+	
 
 ### Usage
 
