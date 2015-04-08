@@ -26,7 +26,7 @@ Example of usage
 
 ### Usage
 
-1. Include `device.css` or generate your custom subset of devices.  
+1. Include `device.css` or generate your custom subset of devices.
 `<link rel="stylesheet" type="text/css" href="css/device.css">`
 2. Add model name from the [list](#modelslist) to your div's classes  
 `<div class="iphone-6 white"></div>`
@@ -53,3 +53,7 @@ Separate css for separate devices:
 	- base class: *iphone-6*
 	- required color scheme class *black* or *white*
 	- optional class *landscape* for horizontal orientation
+
+### License
+
+Source are available under [GPL 3 License](http://link.com)
