@@ -23,7 +23,8 @@ Example of usage
 <div class="iphone-6 black" style="font-size: 4px; float: left">
 	<img src="background/screencast.gif"/>
 </div>
-<br />
+
+--
 
 ### Usage
 
