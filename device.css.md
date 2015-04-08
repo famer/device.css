@@ -1,7 +1,7 @@
 ---
 layout: page
 #title: Device.css
-permalink: /foldernote.html
+permalink: /device.css.html
 ---
 
 ### About
@@ -13,7 +13,7 @@ Device.css is a project helping you to display app screenshots including phones,
 Example of usage
 
 ```
-	<div class="iPhone4s"><img src="background/Places.png"/></div>
+	<div class="iphone-6 white"><img src="background/Places.png"/></div>
 ```
 
 #### Result
@@ -27,6 +27,8 @@ Example of usage
 `<link rel="stylesheet" type="text/css" href="css/device.css">`
 2. Add model name from the [list](#modelslist) to your div's classes  
 `<div class="iPone6"></div>`
+3. 3. You can scale the phone using font-size style, with font-size of 12px being 100% screen size, 6px - 50% etc.  
+`<div class="iPone6 white" style="font-size:6px"></div>`
 
 
 ### CSSes list:
@@ -44,6 +46,5 @@ Separate css for separate devices:
 
 ### Supported devices list:
 
-- iPhone 4S (class: *iPhone4S*)
-- iPhone 5 (class: *iPhone5*)
+- iPhone 6 (class: *iPhone6*)
 - Samsung Galaxy S4 (class: *galaxyS4*)
