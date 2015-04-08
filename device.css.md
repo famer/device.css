@@ -55,4 +55,4 @@ Separate css for separate devices:
 
 ### License
 
-Source are available under GPL License
+Source are available under [GPL 3 License](http://link.com)
