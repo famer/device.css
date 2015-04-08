@@ -5,6 +5,17 @@
   border-top: 2.5em solid #252525;
   width: 111.167em;
   height: 62.5em;
+  background: #222;
+  box-shadow: 0 -2em 0.667em -2em #222,
+			  0 2em 0.667em -1em rgba(34, 34, 34, 0.7),
+			  1.333em 0 0.667em -1em #222,
+			  0 0 0 0.667em #444,
+			  0 0 0 1em #333, 
+			  0 0 1.667em 0.667em rgba(252, 252, 252, 0.5), 
+			  0 0 1.667em 0.667em #fcfcfc,
+			  0 0 0 2em #333,
+			  0 0 5.333em 2em rgba(0, 0, 0, 0.1), 
+			  inset 0 0 0 0.334em #333;
 }
 
 .iphone-6.black.landscape::before {
