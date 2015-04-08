@@ -52,3 +52,7 @@ Separate css for separate devices:
 
 - iPhone 6 (class: *iPhone6*)
 - Samsung Galaxy S4 (class: *galaxyS4*)
+
+### License
+
+Source are available under GPL License
