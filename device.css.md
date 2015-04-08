@@ -27,7 +27,7 @@ Example of usage
 `<link rel="stylesheet" type="text/css" href="css/device.css">`
 2. Add model name from the [list](#modelslist) to your div's classes  
 `<div class="iPone6"></div>`
-3. 3. You can scale the phone using font-size style, with font-size of 12px being 100% screen size, 6px - 50% etc.  
+3. You can scale the phone using font-size style, with font-size of 12px being 100% screen size, 6px - 50% etc.  
 `<div class="iPone6 white" style="font-size:6px"></div>`
 
 
