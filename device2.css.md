@@ -1,7 +1,7 @@
 ---
 layout: page
 #title: Device.css
-permalink: /
+permalink: /device2.css.html
 ---
 
 ### About
