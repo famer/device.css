@@ -37,10 +37,10 @@ Example of usage
 ### CSSes list:
 
 - iphone6.css: iPhone 6 Silver, Space Gray, vertical and landscape
-	- iphone6.silver.css: Silver vertical
-	- iphone6.silver.landscape.css: Silver vertical and landscape
-	- iphone6.space-gray.css: Space Gray vertical
-	- iphone6.space-gray.landscape.css: Space Gray vertical and landscape
+	- iphone6.silver.css: iPhone 6 Silver vertical
+	- iphone6.silver.landscape.css: iPhone 6 Silver vertical and landscape
+	- iphone6.space-gray.css: iPhone 6 Space Gray vertical
+	- iphone6.space-gray.landscape.css: iPhone 6 Space Gray vertical and landscape
 
 ### Supported devices list (will continue to grow):
 
