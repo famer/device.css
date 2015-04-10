@@ -36,23 +36,18 @@ Example of usage
 
 ### CSSes list:
 
-- device.css: you need all available devices
-- phones.css: you need all available phone devices(iPhones, Samsungs, BBRY)
-- tablet.css: you nee all available tablets(iPads, Android Tablets)
-- iphone.css: all iphone models(iPhone 4S, iPhone 5, iPhone 6, iPhone 6 Plus)
-- samsung.css: all samsung devices (Galaxy S, Galaxy S3, Galaxy S4)
-
-Separate css for separate devices:
-
-- iphone-6.css: only iPhone 6 appearance
-- galaxys5.css: only Samsung Galaxy S5
+- iphone6.css: iPhone 6 Silver, Space Gray, vertical and landscape
+	- iphone6.silver.css: Silver vertical
+	- iphone6.silver.landscape.css: Silver vertical and landscape
+	- iphone6.space-gray.css: Space Gray vertical
+	- iphone6.space-gray.landscape.css: Space Gray vertical and landscape
 
 ### Supported devices list (will continue to grow):
 
 - iPhone 6
-	- base class: *iphone-6*
-	- required color scheme class *black* or *white*
-	- optional class *landscape* for horizontal orientation
+	- base css class: *iphone-6*
+	- required color scheme css class *black* or *white*
+	- optional css class *landscape* for horizontal orientation
 
 ### License
 
