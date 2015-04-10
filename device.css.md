@@ -56,4 +56,4 @@ Separate css for separate devices:
 
 ### License
 
-Source are available under [GPL 3 License](http://link.com)
+Source are available under [MIT](http://opensource.org/licenses/MIT) license.
