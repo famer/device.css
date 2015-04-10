@@ -47,7 +47,7 @@ Example of usage
 - iPhone 6
 	- base css class: *iphone-6*
 	- required color scheme css class *black* or *white*
-	- optional css class *landscape* for horizontal orientationi
+	- optional css class *landscape* for horizontal orientationi  
 Example: `<div class="iphone-6 black landscape"></div>
 
 ### License
