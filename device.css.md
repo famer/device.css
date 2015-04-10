@@ -56,4 +56,4 @@ Separate css for separate devices:
 
 ### License
 
-Source are available under [MIT](http://opensource.org/licenses/MIT) license.
+Device.css and its sources are released under [MIT](http://opensource.org/licenses/MIT) license.
