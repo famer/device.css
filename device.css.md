@@ -42,12 +42,13 @@ Example of usage
 	- iphone6.space-gray.css: iPhone 6 Space Gray vertical
 	- iphone6.space-gray.landscape.css: iPhone 6 Space Gray vertical and landscape
 
-### Supported devices list (will continue to grow):
+### Supported devices list with css options (will continue to grow):
 
 - iPhone 6
 	- base css class: *iphone-6*
 	- required color scheme css class *black* or *white*
-	- optional css class *landscape* for horizontal orientation
+	- optional css class *landscape* for horizontal orientationi
+Example: `<div class="iphone-6 black landscape"></div>
 
 ### License
 
