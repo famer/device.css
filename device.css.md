@@ -13,7 +13,7 @@ Device.css is a project helping you to display app screenshots including phones,
 Example of usage
 
 ```
-	<div class="iphone-6 white"><img src="background/Places.png"/></div>
+	<div class="**iphone-6 white**"><img src="background/Places.png"/></div>
 ```
 
 #### Result
