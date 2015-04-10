@@ -18,7 +18,7 @@ Example of usage
 
 #### Result
 <div class="iphone-6 white" style="font-size: 4px;">
-	<img src="background/screencast.gif"/>
+	<img src="background/Places.png"/>
 </div>
 <div class="iphone-6 black" style="font-size: 4px;">
 	<img src="background/screencast.gif"/>
