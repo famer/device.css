@@ -8,7 +8,13 @@ permalink: /
 
 Device.css is a project helping you to display app screenshots including phones, tablets and screens easily with pure CSS.
 
-### Examples
+### Example
+
+```
+	<div class="iphone-6 white"></div>
+```
+
+### Results
 
 <div class="iphone-6 white" style="font-size: 4px;">
 	<img src="background/Places.png"/>
@@ -17,12 +23,6 @@ Device.css is a project helping you to display app screenshots including phones,
 	<img src="background/screencast.gif"/>
 </div>
 
-
-Example of usage
-
-```
-	<div class="iphone-6 white"></div>
-```
 
 ### Usage
 
