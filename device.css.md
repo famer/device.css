@@ -51,7 +51,7 @@ Device.css is a project helping you to display app screenshots including phones,
 Example: `<div class="iphone-6 black landscape"></div>`
 
 ### Requirements
-WebKit compatible browsers: Safari 8+; Chrome 42+; Opera 14+; FireFox 27+;.  
+WebKit compatible browsers: Safari 8+; Chrome 42+; Opera 14+; FireFox 27+.  
 IE 9+ 
 
 ### License
