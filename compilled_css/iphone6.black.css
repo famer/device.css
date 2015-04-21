@@ -1,0 +1,52 @@
+/*
+*	Device.css is released under GPL 3 License
+*	Styles designed by Alex Inkin
+*	Project organized by Timur Tatarshaov
+*	Happy using!
+*
+*/
+.iphone-6 {
+  display: inline-block;
+  font-size: 6px;
+  margin: 3em;
+  position: relative;
+  width: 62.5em;
+  height: 111.167em;
+  padding: 0.334em;
+  box-sizing: content-box;
+  border-radius: 9.5em; }
+
+.iphone-6::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 3em;
+  width: 1em;
+  top: -6em;
+  left: -4.333em;
+  border-radius: 20%; }
+
+.iphone-6::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  height: 2em;
+  width: 2em;
+  top: -13.333em;
+  left: calc(50% - 1em); }
+
+.iphone-6.black {
+  border-top: 16em solid #252525;
+  border-bottom: 14.5em solid #252525;
+  border-left: 2.5em solid #252525;
+  border-right: 2.5em solid #252525;
+  background: #222;
+  box-shadow: 0 -2em 0.667em -2em #222, 0 2em 0.667em -1em rgba(34, 34, 34, 0.7), 1.333em 0 0.667em -1em #222, 0 0 0 0.667em #444, 0 0 0 1em #333, 0 0 1.667em 0.667em rgba(252, 252, 252, 0.5), 0 0 1.667em 0.667em #fcfcfc, 0 0 0 2em #333, 0 0 5.333em 2em rgba(0, 0, 0, 0.1), inset 0 0 0 0.334em #333; }
+
+.iphone-6.black::before {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 120em rgba(0, 0, 0, 0.3), 71em 0 rgba(0, 0, 0, 0.3), 71em 120em rgba(0, 0, 0, 0.3), -1em 6.667em 0em -0.333em #555, -1em 8em 0em -0.333em #555, -1em 10.333em 0em -0.333em #555, -1.333em 7em 0em -0.333em #666, -1.333em 8em 0em -0.333em #666, -1.333em 10em 0em -0.333em #666, -1em 7em #333, -1em 8em #333, -1em 10em #333, -1em 19.667em 0em -0.333em #555, -1em 21em 0em -0.333em #555, -1em 23em 0em -0.333em #555, -1em 25em 0em -0.333em #555, -1em 27em 0em -0.333em #555, -1em 28.333em 0em -0.333em #555, -1.333em 20em 0em -0.333em #666, -1.333em 21em 0em -0.333em #666, -1.333em 23em 0em -0.333em #666, -1.333em 24em 0em -0.333em #666, -1.333em 26em 0em -0.333em #666, -1.333em 28em 0em -0.333em #666, -1em 20em #333, -1em 21em #333, -1em 23em #333, -1em 24em #333, -1em 26em #333, -1em 28em #333, -1em 33em 0em -0.333em #555, -1em 34em 0em -0.333em #555, -1em 36em 0em -0.333em #555, -1em 37em 0em -0.333em #555, -1em 39em 0em -0.333em #555, -1em 41.333em 0em -0.333em #555, -1.333em 33.333em 0em -0.333em #666, -1.333em 34em 0em -0.333em #666, -1.333em 36em 0em -0.333em #666, -1.333em 37em 0em -0.333em #666, -1.333em 39em 0em -0.333em #666, -1.333em 41em 0em -0.333em #666, -1em 33.333em #333, -1em 34em #333, -1em 36em #333, -1em 37em #333, -1em 39em #333, -1em 41em #333, 71.667em 19.667em 0em -0.333em #555, 71.667em 21em 0em -0.333em #555, 71.667em 23em 0em -0.333em #555, 71.667em 25em 0em -0.333em #555, 71.667em 27em 0em -0.333em #555, 71.667em 28.333em 0em -0.333em #555, 72em 20em 0em -0.333em #666, 72em 21em 0em -0.333em #666, 72em 23em 0em -0.333em #666, 72em 24em 0em -0.333em #666, 72em 26em 0em -0.333em #666, 72em 28em 0em -0.333em #666, 71.667em 20em #333, 71.667em 21em #333, 71.667em 23em #333, 71.667em 24em #333, 71.667em 26em #333, 71.667em 28em #333; }
+
+.iphone-6.black::after {
+  box-shadow: inset 0 0 0 0.334em #333, -12em 5em 0 -0.833em rgba(255, 255, 255, 0.3), -11.333em 5em 0 0 #333, -11.333em 5em 0 0.333em #3c3d3d, -5.333em 5em 0 -0.333em #151515, -5em 5em 0 -0.333em #151515, -4.667em 5em 0 -0.333em #151515, -4.333em 5em 0 -0.333em #151515, -4em 5em 0 -0.333em #151515, -3.667em 5em 0 -0.333em #151515, -3.333em 5em 0 -0.333em #151515, -3em 5em 0 -0.333em #151515, -2.667em 5em 0 -0.333em #151515, -2.333em 5em 0 -0.333em #151515, -2em 5em 0 -0.333em #151515, -1.667em 5em 0 -0.333em #151515, -1.333em 5em 0 -0.333em #151515, -1em 5em 0 -0.333em #151515, -0.667em 5em 0 -0.333em #151515, -0.333em 5em 0 -0.333em #151515, 0 5em 0 -0.333em #151515, 0.333em 5em 0 -0.333em #151515, 0.667em 5em 0 -0.333em #151515, 1em 5em 0 -0.333em #151515, 1.333em 5em 0 -0.333em #151515, 1.667em 5em 0 -0.333em #151515, 2em 5em 0 -0.333em #151515, 2.333em 5em 0 -0.333em #151515, 2.667em 5em 0 -0.333em #151515, 3em 5em 0 -0.333em #151515, 3.333em 5em 0 -0.333em #151515, 3.667em 5em 0 -0.333em #151515, 4em 5em 0 -0.333em #151515, 4.333em 5em 0 -0.333em #151515, 4.667em 5em 0 -0.333em #151515, 5em 5em 0 -0.333em #151515, 5.333em 5em 0 -0.333em #151515, -5.667em 5.333em 0 -0.333em #333, -5.333em 5.333em 0 -0.333em #333, -5em 5.333em 0 -0.333em #333, -4.667em 5.333em 0 -0.333em #333, -4.333em 5.333em 0 -0.333em #333, -4em 5.333em 0 -0.333em #333, -3.667em 5.333em 0 -0.333em #333, -3.333em 5.333em 0 -0.333em #333, -3em 5.333em 0 -0.333em #333, -2.667em 5.333em 0 -0.333em #333, -2.333em 5.333em 0 -0.333em #333, -2em 5.333em 0 -0.333em #333, -1.667em 5.333em 0 -0.333em #333, -1.333em 5.333em 0 -0.333em #333, -1em 5.333em 0 -0.333em #333, -0.667em 5.333em 0 -0.333em #333, -0.333em 5.333em 0 -0.333em #333, 0 5.333em 0 -0.333em #333, 0.333em 5.333em 0 -0.333em #333, 0.667em 5.333em 0 -0.333em #333, 1em 5.333em 0 -0.333em #333, 1.333em 5.333em 0 -0.333em #333, 1.667em 5.333em 0 -0.333em #333, 2em 5.333em 0 -0.333em #333, 2.333em 5.333em 0 -0.333em #333, 2.667em 5.333em 0 -0.333em #333, 3em 5.333em 0 -0.333em #333, 3.333em 5.333em 0 -0.333em #333, 3.667em 5.333em 0 -0.333em #333, 4em 5.333em 0 -0.333em #333, 4.333em 5.333em 0 -0.333em #333, 4.667em 5.333em 0 -0.333em #333, 5em 5.333em 0 -0.333em #333, 0 132em 2em 3em #222, 0 132em 0 4em #252525, -2em 132em 2em 2.75em #252525, 3em 132em 2em 2.75em #252525, 0 132em 0 4.75em rgba(95, 95, 95, 0.4), 3em 129em 0 3em #252525, 0 126em 0 0em #252525, -3em 129em 0 3em #252525, 0 132em 0 4.75em #777, -0.333em 132.333em 0 4.667em #222, -0.667em 132.667em 0 4.667em #232323; }
