@@ -61,4 +61,5 @@ Sources available in repository [famer/device.css](http://github.com/famer/devic
 
 Device.css and its sources are released under [MIT](http://opensource.org/licenses/MIT) license.
 
+### Copyright
 © 2015 Alex Inkin with support of Timur Tatarshaov
