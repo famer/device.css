@@ -19,6 +19,15 @@ Device.css is a project helping you to display app screenshots including phones,
 <div class="iphone-6 white" style="font-size: 4px;">
 	<img src="background/Places.png"/>
 </div>
+<div class="iphone-6 white" style="font-size: 4px;">
+	<img src="background/screenshots/main_screen_detail.png"/>
+</div>
+<div class="iphone-6 white" style="font-size: 4px;">
+	<img src="background/screenshots/main_screen.png"/>
+</div>
+<div class="iphone-6 white" style="font-size: 4px;">
+	<img src="background/screenshots/removed_places.png"/>
+</div>
 <div class="iphone-6 black" style="font-size: 4px;">
 	<video width="250" controls="">
 	  <source src="background/videos/fnscreencast.mov" type="video/mp4" />
@@ -58,6 +67,10 @@ IE 10+
 
 ### Sources
 Sources available in repository [famer/device.css](http://github.com/famer/device.css)
+
+### Issues 
+
+If you find some bugs or issues feel free to submit report in [issues section](https://github.com/famer/device.css/issues)
 
 ### License
 
