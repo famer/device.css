@@ -17,7 +17,7 @@ Device.css is a project helping you to display app screenshots including phones,
 ### Results
 
 
-<div class="iphone-6 white" style="font-size: 4px;">
+<div class="iphone-6 white" style="font-size: 4px; vertical-align: middle;">
         <img src="background/screenshots/main_screen_detail.png"/>
 </div>
 <div class="iphone-6 black" style="font-size: 4px; vertical-align: middle;">
@@ -80,8 +80,7 @@ Device.css and its sources are released under [MIT](http://opensource.org/licens
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="fb-like" data-href="http://famer.github.io/device.css/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="locationsphere">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://famer.github.io/device.css/" data-via="locationsphere">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 ### Copyright
 © 2015 Alex Inkin with support of Timur Tatarshaov
 
