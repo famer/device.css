@@ -83,5 +83,5 @@ Device.css and its sources are released under [MIT](http://opensource.org/licens
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://famer.github.io/device.css/" data-via="locationsphere">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 ### Copyright
-© 2015 Alex Inkin with support of Timur Tatarshaov
+© 2015 Alex Inkin with support of [Timur Tatarshaov](http://famer.github.io)
 
