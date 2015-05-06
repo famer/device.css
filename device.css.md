@@ -6,7 +6,7 @@ permalink: /
 
 ### About
 
-Device.css is a project helping you to display app screenshots including phones, tablets and screens easily with pure CSS.
+Device.css is a project where we explore how much we can do with pure CSS. It helps you display app screenshots including phones, tablets and screens easily or do anything creative you can think of using our single element devices. They are scalable and use CSS3 styles to allow for vector graphics that looks sharp on any resolution.
 
 ### Example
 
@@ -26,6 +26,7 @@ Device.css is a project helping you to display app screenshots including phones,
 	</video>
 </div>
 
+<p>Check out more extensive demo here (insert codepen link when it's available)</p>
 
 ### Usage
 
@@ -50,8 +51,15 @@ Device.css is a project helping you to display app screenshots including phones,
 - iPhone 6
 	- base css class: *iphone-6*
 	- required color scheme CSS class *black* or *white*
-	- optional CSS class *landscape* for horizontal orientationi  
+	- optional CSS class *landscape* for horizontal orientation  
 Example: `<div class="iphone-6 black landscape"></div>`
+- iPad Mini 3
+	- base css class: *ipad-mini-3*
+	- required color scheme CSS class *black*, *white* or *gold*
+- Macbook Air
+	- base css class: *macbook-air*
+- Mac
+	- base css class: *mac*
 
 ### Requirements
 Safari, Chrome, Opera, FireFox  
@@ -83,5 +91,6 @@ Device.css and its sources are released under [MIT](http://opensource.org/licens
 <a style="float:left;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://famer.github.io/device.css/" data-via="locationsphere">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 ### Copyright
-© 2015 Alex Inkin with support of [Timur Tatarshaov](http://famer.github.io)
+Devices.css are created by Alex Inkin with support of [Timur Tatarshaov](http://famer.github.io). You are free to use it anywhere you like. If you appreciate this project and want to say thank you - you can listen to my music on [waterplea.bandcamp.com](http://waterplea.bandcamp.com).
+© 2015
 
