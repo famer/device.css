@@ -22,7 +22,7 @@ Device.css is a project helping you to display app screenshots including phones,
 </div>
 <div class="iphone-6 black" style="font-size: 4px; vertical-align: middle;">
 	<video width="250" autoplay loop>
-	  <source src="background/videos/fnscreencast.mov" type="video/mp4" />
+	  <source src="background/videos/fnscreencast.mp4" type="video/mp4" />
 	</video>
 </div>
 
