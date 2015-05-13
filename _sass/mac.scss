@@ -1,0 +1,156 @@
+.mac {
+  display: inline-block;
+  position: relative;
+  font-size: 6px;
+  height: 120em;
+  width: 213.334em;
+  margin-bottom: 28em;
+  box-sizing: content-box;
+  border-radius: 5.67em;
+  padding: 9.5em 9.5em 8.84em 9.5em;
+  box-shadow: inset 9.5em 0 #111, inset -9.5em 0 #111, inset 0 9.5em #111, inset 0 -8.84em #111;
+  border-bottom: 21em solid transparent;
+  perspective: 8.34em;
+  -webkit-perspective: 8.34em;
+  background: linear-gradient(45deg, #898a8c, #e1e2e4);
+}
+
+.mac::before {
+  content: '';
+  position: absolute;
+  top: calc(100% + 21em);
+  left: calc(50% - 60em);
+  width: 120em;
+  height: 40em;
+  background:   radial-gradient(farthest-side at right top, #7e7e7f, transparent) bottom 3em left 13em,
+				radial-gradient(farthest-side at left top, #7e7e7f, transparent) bottom 3em right 13em,
+				radial-gradient(farthest-side at center bottom, #a1a1a3, transparent) bottom 1em left 15em, 
+				radial-gradient(farthest-side at center bottom, #a1a1a3, transparent) bottom 1em left 6em,
+				radial-gradient(farthest-side at center bottom, #a1a1a3, transparent) bottom 1em right 6em,
+				linear-gradient(0deg, #e7e7e9 5%, #79797b 11%, #828280 17%, #9e9ea0 20%, #f1f1f1 30%, #eaeaea 40%, #77787c 100%) top left 17em, 
+				linear-gradient(#e7e7e9, #e7e7e9) bottom 1em left 14em,  
+				linear-gradient(-15deg, #e7e7e9 48%, transparent 52%) bottom 1em left, 
+				linear-gradient(15deg, #e7e7e9 48%, transparent 52%) bottom 1em right, 
+				linear-gradient(45deg, #9b9b9d 0%, #ececee 10%, #ececee 90%, #9b9b9d 100%) bottom left, 
+				radial-gradient(farthest-side at left top, transparent 48%, #7e7e7f 50%) top 23em left 14em, 
+				radial-gradient(farthest-side at right top, transparent 48%, #7e7e7f 50%) top 23em right 14em;
+  background-size: 4em 2em,
+				   4em 2em,
+				   90em 10em, 
+				   90em 4em,
+				   90em 4em, 
+				   86em 39em, 
+				   92em 4em, 
+				   14em 4em, 
+				   14em 4em, 
+				   100% 1em, 
+				   7em 24em, 
+				   7em 24em;
+  border-bottom-left-radius: 23.34em 0.34em;
+  border-bottom-right-radius: 23.34em 0.34em;
+  background-repeat: no-repeat;
+  transform-origin: top;
+  transform: rotateX(3deg) scale3d(0.54, 0.4, 1);
+  -webkit-transform-origin: top;
+  -webkit-transform: rotateX(3deg) scale3d(0.54, 0.4, 1);
+  box-shadow: 0 2.3em 1.34em -2em, 0 2em 1.34em -2em;
+}
+
+.mac::after {
+  content: '';
+  position: absolute;
+  top: 130.8em;
+  left: 103.17em;
+  transform: scale(0.19);
+  -webkit-transform: scale(0.19);
+  width: 25.17em;
+  height: 25.17em;
+  background: #111;
+  background-clip: content-box;
+  box-sizing: border-box;
+  padding: 1.67em;
+  border-radius: 166.67em;
+  box-shadow: 1.67em -738.34em 8.34em -8.34em #111,
+              1.67em -734.84em 0 -10em #474956,
+			  1.67em -734.84em 0 -8.34em #1b1c26,
+			  1.67em -734.84em 0 -6.67em #36373a,
+			  inset 14.17em 11.34em #c4c5c7,  
+			  30em 28em 0 #c4c5c7, 
+			  13em 24em 0 #111, 
+			  13em 36.17em 0 #111, 
+			  12em 38.5em 0 #111, 
+			  10.5em 41em 0 #111, 
+			  11em 46.67em 0 -5.17em #111, 
+			  12.17em 47em 0 -5.17em #111, 
+			  13.34em 45.84em 0 -5.17em #111, 
+			  6em 45.17em 0 -5.17em #111, 
+			  2.84em 44.84em 0 -5.17em #111, 
+			  -1.5em 45.5em 0 -5.17em #111, 
+			  -3.5em 46.17em 0 -5.17em #111, 
+			  -6.17em 47.17em 0 -5.17em #111, 
+			  -4em 33em 0 3.84em #111, 
+			  -4.17em 35.67em 0 2.84em #111, 
+			  -3.84em 40.34em 0 #111, 
+			  -5.34em 39.67em 0 #111, 
+			  -5.17em 42.5em 0 -1.34em #111, 
+			  -5.67em 44.34em 0 -2.84em #111, 
+			  1.34em 42.67em 0 -2.84em #111, 
+			  4.5em 42.67em 0 -2.84em #111, 
+			  -9.84em 32.34em 0 -1.67em #111, 
+			  -10.17em 30.17em 0 -1.67em #111, 
+			  -10.17em 27.84em 0 -1.67em #111, 
+			  -9.84em 25.84em 0 -1.67em #111, 
+			  -9.17em 24em 0 -1.67em #111, 
+			  -8.17em 22.67em 0 -1.67em #111, 
+			  -6.67em 22.84em 0 -1.67em #111, 
+			  -4.34em 23.5em 0 -1.67em #111, 
+			  -1.34em 24.34em 0 -1.67em #111, 
+			  7.17em 24em 0 -1.67em #111, 
+			  10.34em 23em 0 -1.67em #111, 
+			  3em 24.67em 0 -1.67em #111;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.mac::after {
+	  background: transparent;
+	  box-shadow: 1.67em -738.34em 8.34em -8.34em #111,
+				  1.67em -734.84em 0 -10em #474956,
+				  1.67em -734.84em 0 -8.34em #1b1c26,
+				  1.67em -734.84em 0 -6.67em #36373a,
+				  inset 14.17em 11.34em #c5c6c8, 
+				  inset -64em -64.17em 0 -80.5em #111, 
+				  30em 28em 0.67em #c5c6c8, 
+				  13em 24em 0.67em #111, 
+				  13em 36.17em 0.67em #111, 
+				  12em 38.5em 0.67em #111, 
+				  10.5em 41em 0.67em #111, 
+				  11em 46.67em 1.17em -5.17em #111, 
+				  12.17em 47em 1.17em -5.17em #111, 
+				  13.34em 45.84em 1.17em -5.17em #111, 
+				  6em 45.17em 1.17em -5.17em #111, 
+				  2.84em 44.84em 1.17em -5.17em #111, 
+				  -1.5em 45.5em 1.17em -5.17em #111, 
+				  -3.5em 46.17em 1.17em -5.17em #111, 
+				  -6.17em 47.17em 1.17em -5.17em #111, 
+				  -4em 33em 1.17em 3.84em #111, 
+				  -4.17em 35.67em 1.17em 2.84em #111, 
+				  -3.84em 40.34em 0.67em #111, 
+				  -5.34em 39.67em 0.67em #111, 
+				  -5.17em 42.5em 1.17em -1.34em #111, 
+				  -5.67em 44.34em 1.17em -2.84em #111, 
+				  1.34em 42.67em 1.17em -2.84em #111, 
+				  4.5em 42.67em 1.17em -2.84em #111, 
+				  -9.84em 32.34em 1.17em -1.67em #111, 
+				  -10.17em 30.17em 1.17em -1.67em #111, 
+				  -10.17em 27.84em 1.17em -1.67em #111, 
+				  -9.84em 25.84em 1.17em -1.67em #111, 
+				  -9.17em 24em 1.17em -1.67em #111, 
+				  -8.17em 22.67em 1.17em -1.67em #111, 
+				  -6.67em 22.84em 1.17em -1.67em #111, 
+				  -4.34em 23.5em 1.17em -1.67em #111, 
+				  -1.34em 24.34em 1.17em -1.67em #111, 
+				  7.17em 24em 1.17em -1.67em #111, 
+				  10.34em 23em 1.17em -1.67em #111, 
+				  3em 24.67em 1.17em -1.67em #111;
+	}
+}
