@@ -26,7 +26,7 @@ Device.css is a project where we explore how much we can do with pure CSS. It he
 	</video>
 </div>
 <br>
-<p>Check out more extensive demo <a href="http://codepen.io/waterplea/pen/jPqBdr">here</a></p>
+<p>Check out more extensive demo <a href="http://codepen.io/waterplea/pen/jPqBdr">here</a>.</p>
 
 ### Usage
 
@@ -57,11 +57,11 @@ Safari, Chrome, Opera, FireFox
 IE 10+ 
 
 ### Sources
-Sources available in repository [famer/device.css](http://github.com/famer/device.css)
+Sources available in repository [famer/device.css](http://github.com/famer/device.css).
 
 ### Issues 
 
-If you find some bugs or issues feel free to submit report in [issues section](https://github.com/famer/device.css/issues)
+If you find some bugs or issues feel free to submit report in [issues section](https://github.com/famer/device.css/issues).
 
 ### License
 
