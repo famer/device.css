@@ -26,7 +26,7 @@ Device.css is a project where we explore how much we can do with pure CSS. It he
 	</video>
 </div>
 <br>
-<p>Check out more extensive demo here (insert codepen link when it's available)</p>
+<p>Check out more extensive demo <a href="http://codepen.io/waterplea/pen/jPqBdr">here</a></p>
 
 ### Usage
 
