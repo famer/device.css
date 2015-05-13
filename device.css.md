@@ -25,7 +25,7 @@ Device.css is a project where we explore how much we can do with pure CSS. It he
 	  <source src="background/videos/fnscreencast.mp4" type="video/mp4" />
 	</video>
 </div>
-
+<br>
 <p>Check out more extensive demo here (insert codepen link when it's available)</p>
 
 ### Usage
@@ -36,15 +36,6 @@ Device.css is a project where we explore how much we can do with pure CSS. It he
 `<div class="iphone-6 white"></div>`
 3. You can scale the phone using font-size style, with font-size of 12px being 100% screen size, 6px - 50% etc.  
 `<div class="iphone-6 white" style="font-size:6px"></div>`
-
-
-### CSSes list:
-
-- iphone6.css: iPhone 6 Silver, Space Gray, vertical and landscape
-	- iphone6.white.css: iPhone 6 Silver vertical
-	- iphone6.white.landscape.css: iPhone 6 Silver vertical and landscape
-	- iphone6.black.css: iPhone 6 Space Gray vertical
-	- iphone6.black.landscape.css: iPhone 6 Space Gray vertical and landscape
 
 ### Supported devices list with css options (will continue to grow):
 
@@ -91,7 +82,7 @@ Device.css and its sources are released under [MIT](http://opensource.org/licens
 <a style="float:left;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://famer.github.io/device.css/" data-via="locationsphere">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 ### Copyright
-Devices.css are created by Alex Inkin with support of [Timur Tatarshaov](http://famer.github.io). You are free to use it anywhere you like.  
+Devices.css are created by Alex Inkin with support of [Timur Tatarshaov](http://famer.github.io). You are free to use it anywhere.<br>
 Alex Inkin: If you appreciate this project and want to say thank you - you can listen to my music on [waterplea.bandcamp.com](http://waterplea.bandcamp.com).  
 © 2015
 
