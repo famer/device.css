@@ -1,0 +1,177 @@
+.macbook-air {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  width: 133.35em;
+  height: 91em;
+  font-size: 6px;
+  box-sizing: border-box;
+  border-radius: 5.17em;
+  border-bottom-left-radius: 3em;
+  border-bottom-right-radius: 3em;
+  margin: 0 15em 4em 15em;
+  padding: 6.67em 6.67em 9.34em 6.67em;
+  box-shadow: 	0 2em 1em -2em, 
+				inset 0 0 0.17em #666, 
+				inset 0 0 0 0.5em #fafafb, 
+				inset 0 0 0.17em 0.67em rgba(255, 255, 255, 0.4), 
+				inset 0 -15em 16.67em -16.67em rgba(0, 0, 0, 0.5),
+				inset 0 -2em 0.5em -1em #aaa,				
+				inset 0 0 0 1em #252525, 
+				inset 0 0 0 1.17em rgba(255, 255, 255, 0.4), 
+				inset 50em 50em 33.34em -58.34em rgba(0, 0, 0, 0.1),
+				inset 50em 50em 50em -50em rgba(0, 0, 0, 0.2), 
+				inset -33.34em -41.67em 33.34em -50em #c5c4c9,
+				inset 0 6.17em 0.17em #efeff2,
+				inset 6.17em 0 0.17em #efeff2,
+				inset -6.17em 0 0.17em #efeff2,
+				inset 0 -8.67em 0.17em #efeff2,
+				inset 0 6.5em white,
+				inset 6.5em 0 white,				
+				inset -6.5em -6.5em white,
+				inset 0 -9.1em white,
+				inset 0 6.67em #888,
+				inset 6.67em 0 #888,
+				inset -6.66em -6.67em #888,
+				inset 0 -9.17em #888, 
+				inset 0 0 0 166.67em #222,
+				0 0 0.17em black;
+
+}
+
+.macbook-air::before {
+  content: 'MacBook';
+  font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  font-size: 2.4em;
+  text-shadow: 31.39em -2.3em #444;
+  color: transparent;
+  position: absolute;
+  bottom: -1.12em;
+  left: -6.25em;
+  width: 67.99em;
+  height: 1.53em;
+  border-bottom-left-radius: 13.89em 1.39em;
+  border-bottom-right-radius: 13.89em 1.39em;
+  box-shadow: 	inset -0.42em 0 0.42em -0.42em rgba(0, 0, 0, 0.7), 
+				inset 0.42em 0 0.42em -0.42em rgba(0, 0, 0, 0.7), 
+				inset 0 6.81em 0.42em -6.95em rgba(0, 0, 0, 0.7), 
+				inset 0 7.16em 0.14em -6.95em rgba(255, 255, 255, 0.9), 
+				inset 0 -694.87em 1.67em -694.45em black, 
+				inset 0em -0.91em 0.21em #abaab0, 
+				inset 27.92em 0 0.07em #abaab0, 
+				inset 27.92em -0.07em #ddd, 
+				inset -27.92em 0 #abaab0, 
+				inset -27.92em -0.07em #ddd, 
+				inset 0em -0.98em 0 #ddd, 
+				inset 0em -1.05em #bebbc5, 
+				inset 28.34em -0.07em 0.42em rgba(0, 0, 0, 0.5), 
+				inset 27.92em 0 0.42em rgba(0, 0, 0, 0.4), 
+				inset -28.34em -0.07em 0.42em rgba(0, 0, 0, 0.5), 
+				inset -27.92em 0 0.42em rgba(0, 0, 0, 0.4), 
+				0 0 0.07em black,
+				0 0.77em 0.42em -0.7em black,
+				inset 0 1.5em white;
+}
+
+.macbook-air::after {
+  content: 'Air';
+  white-space: nowrap;
+  font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Verdana, sans-serif;
+  color: #444;
+  font-size: 2.4em;
+  position: absolute;
+  bottom: 1.88em;
+  left: 53%;
+  width: 0.84em;
+  height: 0.84em;
+  border-radius: 100%;
+  box-shadow: 	-2.02em -33.89em 0 -0.35em rgba(255, 255, 255, 0.5), 
+				-2.09em -34.03em 0 -0.28em #333, 
+				-2.09em -34.03em 0 -0.14em #444, 
+				-2.09em -34.03em 0 -0.07em #222, 
+				-2.09em -34.03em 0.07em rgba(255, 255, 255, 0.5),
+				-13.69em 2.78em 0 -0.35em #444,
+				-13.6em 2.78em 0 -0.35em #444,
+				-13.55em 2.78em 0 -0.35em #444,
+				-13.5em 2.78em 0 -0.35em #444,
+				-13.41em 2.78em 0 -0.35em #444,
+				-13.35em 2.78em 0 -0.35em #444,
+				-13.27em 2.78em 0 -0.35em #444,
+				8.69em 2.78em 0 -0.35em #444,
+				8.75em 2.78em 0 -0.35em #444,
+				8.82em 2.78em 0 -0.35em #444,
+				8.88em 2.78em 0 -0.35em #444,
+				8.96em 2.78em 0 -0.35em #444,
+				9.05em 2.78em 0 -0.35em #444,
+				9.1em 2.78em 0 -0.35em #444;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.macbook-air {
+		border-radius: 4.84em;
+		border-bottom-left-radius: 3em;
+		border-bottom-right-radius: 3em;
+		box-shadow: 0 2em 1em -2em, 
+					inset 0 0 0.17em #666, 
+					inset 0.5em 0.5em #fafafb, 
+					inset -0.5em 0.5em #fafafb, 
+					inset 0.5em -0.5em #fafafb, 
+					inset -0.5em -0.5em #fafafb, 
+					inset 0.67em 0.67em 0.17em rgba(255, 255, 255, 0.4), 
+					inset -0.67em 0.67em 0.17em rgba(255, 255, 255, 0.4), 
+					inset 0.67em -0.67em 0.17em rgba(255, 255, 255, 0.4), 
+					inset -0.67em -0.67em 0.17em rgba(255, 255, 255, 0.4), 
+					inset 0 -15em 16.67em -16.67em rgba(0, 0, 0, 0.5),
+					inset 0 -2em 0.5em -1em #aaa,
+					inset 1em 1em #252525, 
+					inset -1em 1em #252525, 
+					inset 1em -1em #252525, 
+					inset -1em -1em #252525, 
+					inset 1.17em 1.17em rgba(255, 255, 255, 0.4), 
+					inset -1.17em 1.17em rgba(255, 255, 255, 0.4), 
+					inset 1.17em -1.17em rgba(255, 255, 255, 0.4), 
+					inset -1.17em -1.17em rgba(255, 255, 255, 0.4), 
+					inset 50em 50em 33.34em -58.34em rgba(0, 0, 0, 0.1),
+					inset 50em 50em 50em -50em rgba(0, 0, 0, 0.2), 
+					inset -33.34em -41.67em 33.34em -50em #c5c4c9,
+					inset 0 6.17em 0.17em #efeff2,
+					inset 6.17em 0 0.17em #efeff2,
+					inset -6.17em 0 0.17em #efeff2,
+					inset 0 -8.67em 0.17em #efeff2,
+					inset 0 6.5em white,
+					inset 6.5em 0 white,				
+					inset -6.5em -6.5em white,
+					inset 0 -9.2em white,
+					inset 0 6.67em #888,
+					inset 6.67em 0 #888,
+					inset -6.67em -6.67em #888,
+					inset 0 -9.3em #888, 
+					inset 0 0 0 166.67em #222,
+					0 0 0.17em black;
+	}
+}
+
+@-moz-document url-prefix() {
+	.macbook-air::before {
+	  box-shadow: 	inset -0.42em 0 0.42em -0.42em rgba(0, 0, 0, 0.4), 
+					inset 0.42em 0 0.42em -0.42em rgba(0, 0, 0, 0.4), 
+					inset 0 6.81em 0.42em -6.95em rgba(0, 0, 0, 0.4), 
+					inset 0 7.16em 0.14em -6.95em rgba(255, 255, 255, 0.95), 
+					inset 0 -694.87em 1.39em -694.45em black, 
+					inset 0em -0.91em 0.21em #abaab0, 
+					inset 27.92em 0 0.07em #abaab0, 
+					inset 27.92em -0.07em #ddd, 
+					inset -27.92em 0 #abaab0, 
+					inset -27.92em -0.07em #ddd, 
+					inset 0em -0.98em 0 #ddd, 
+					inset 0em -1.05em #BEBBC5, 
+					inset 28.34em -0.07em 0.42em rgba(0, 0, 0, 0.5), 
+					inset 27.92em 0 0.42em rgba(0, 0, 0, 0.4), 
+					inset -28.34em -0.07em 0.42em rgba(0, 0, 0, 0.5), 
+					inset -27.92em 0 0.42em rgba(0, 0, 0, 0.4),
+					0 0 0.07em black,
+					0 0.98em 0.42em -0.35em rgba(0, 0, 0, 0.2),
+					inset 0 0 0 69.45em white;
+	}
+}
