@@ -21,7 +21,7 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
         <img src="background/screenshots/main_screen_detail.png"/>
 </div>
 <div class="iphone-6 black" style="font-size: 4px; vertical-align: middle;">
-	<video width="250" autoplay loop controls>
+	<video width="250" autoplay loop >
 	  <source src="background/videos/fnscreencast.mp4" type="video/mp4" />
 	   <img src="background/screenshots/main_screen_detail.png"/>
 	</video>
