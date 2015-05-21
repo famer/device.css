@@ -49,7 +49,7 @@ Example: `<div class="iphone-6 black landscape"></div>`
 	- required color scheme CSS class *black*, *white* or *gold*
 - Macbook Air
 	- base css class: *macbook-air*
-- Mac
+- iMac
 	- base css class: *mac*
 
 ### Requirements
