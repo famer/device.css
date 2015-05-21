@@ -5,8 +5,8 @@ permalink: /
 ---
 
 ### About
-
-Device.css is a project where we explore how much we can do with pure CSS. It helps you display app screenshots including phones, tablets and screens easily or do anything creative you can think of using our single element devices. They are scalable and use CSS3 styles to allow for vector graphics that looks sharp on any resolution.
+Device.css is a project that helps you to display app screenshots including phones, tablets and screens easily with pure CSS.
+They are scalable and use CSS3 styles to enable you to use vector graphics that looks sharp on any resolution.
 
 ### Example
 
