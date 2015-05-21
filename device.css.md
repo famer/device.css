@@ -38,7 +38,7 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
 3. You can scale the phone using font-size style, with font-size of 12px being 100% screen size, 6px - 50% etc.  
 `<div class="iphone-6 white" style="font-size:6px"></div>`
 
-### Supported devices list with css options (will continue to grow):
+### Supported devices current list with options:
 
 - iPhone 6
 	- base css class: *iphone-6*
