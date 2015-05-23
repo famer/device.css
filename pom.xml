@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>famer.github.io</groupId>
+    <artifactId>device-css</artifactId>
+    <version>1.0.0</version>
+    
+    <name>${project.groupId} - ${project.artifactId}</name>
+
+
+    <build>
+        <plugins>
+            <plugin>
+		    <groupId>org.jasig.maven</groupId>
+		    <artifactId>sass-maven-plugin</artifactId>
+		    <version>1.1.1</version>
+		    <executions>
+			<execution>
+			    <id>package</id>
+			    <phase>generate-sources</phase>
+			    <goals>
+				<goal>update-stylesheets</goal>
+			    </goals>
+			</execution>
+		    </executions>
+		    <configuration>
+			    <sassOptions>
+				    <always_update>true</always_update>
+				    <style>:compressed</style>
+			    </sassOptions>
+			<resources>
+			    <resource>
+				<source>
+				    <directory>${basedir}/scss</directory>
+				</source>
+				<destination>${basedir}/css</destination>
+			    </resource>
+			</resources>
+		    </configuration>
+		</plugin>
+        </plugins>
+    </build>
+
+</project>
