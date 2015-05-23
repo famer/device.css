@@ -1,4 +1,4 @@
-# device.css
+# Device.css
 
 ## About
 Device.css is a project that helps you to display app screenshots including phones, tablets and other devices easily with one HTML element and pure CSS.
