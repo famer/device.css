@@ -3,11 +3,40 @@
 <head>
 	<title>CSS Phone Demo</title>
 	<link rel="stylesheet" type="text/css" href="css/device.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 </head>
 <body>
 
-<div class="iphone-6 white" style="font-size: 5px;">
-	<img src="background/screenshots/main_screen_detail.png"/>
+	<input type="checkbox" name="orientation" value="landscape" /> Landscape <br />
+	<input type="radio" name="color" value="white" checked /> White <br />
+	<input type="radio" name="color" value="black" /> Black <br />
+	<input type="radio" name="color" value="gold" /> Gold <br />
+
+
+   <input type="radio" name="device" value="iphone-6" checked> iPhone 6<Br>
+   <input type="radio" name="device" value="ipad-mini-3"> iPad mini 3<Br>
+   <input type="radio" name="device" value="macbook-air"> MacBook Air<Br>
+   <input type="radio" name="device" value="mac"> iMac<Br>
+
+   <textarea id="code"></textarea>
+   <div id="device" class="">content</div>
+<script>
+$(function() {
+    $('input').change(function() {
+        $('#device').removeClass();
+        $('#device').addClass($('input[name="device"]:checked').val())
+        $('#device').addClass($('input[name="color"]:checked').val())
+        $('#device').addClass($('input[name="orientation"]:checked').val())
+        $('#code').val($('#device')[0].outerHTML);
+    });
+    $('input').change();
+});
+                      
+</script>
+
+
+<div class="ipad-mini-3 white" style="font-size: 3px;">
+	<img src="background/screenshots/main_screen_detail_ipad.png"/>
 </div>
 <div class="iphone-6 white" style="font-size: 5px;">
 	<img  src="background/screenshots/main_screen.png"/>
