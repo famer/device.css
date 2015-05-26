@@ -11,7 +11,6 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
 ### Example
 
 ```
-	
 	<link rel="stylesheet" href="device.css" type="text/css">
 
 	<div class="iphone-6 white"></div>
