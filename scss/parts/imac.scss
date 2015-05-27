@@ -1,4 +1,4 @@
-.mac {
+.imac {
   display: inline-block;
   position: relative;
   font-size: 6px;
@@ -15,7 +15,7 @@
   background: linear-gradient(45deg, #898a8c, #e1e2e4);
 }
 
-.mac::before {
+.imac::before {
   content: '';
   position: absolute;
   top: calc(100% + 21em);
@@ -56,7 +56,7 @@
   box-shadow: 0 2.3em 1.34em -2em, 0 2em 1.34em -2em;
 }
 
-.mac::after {
+.imac::after {
   content: '';
   position: absolute;
   top: 130.8em;
@@ -111,7 +111,7 @@
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-	.mac::after {
+	.imac::after {
 	  background: transparent;
 	  box-shadow: 1.67em -738.34em 8.34em -8.34em #111,
 				  1.67em -734.84em 0 -10em #474956,
