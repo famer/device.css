@@ -12,7 +12,7 @@ List of existing classes:
 * iphone-6
 * ipad-mini-3
 * macbook-air
-* mac
+* imac
  
 You can add color and orientation classes optionaly. Colors: black, white, gold. Orientations: landscape.
 
