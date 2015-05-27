@@ -81,6 +81,11 @@ Device.css and its sources are released under [MIT](http://opensource.org/licens
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<div style="float:left; margin: 0 10px 0 0;">
+	<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+	<script type="IN/Share" data-counter="right"></script>
+</div>
+
 <div style="float:left; margin: -4px 10px 0 0;" class="fb-like" data-href="http://famer.github.io/device.css/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
 <a style="float:left;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://famer.github.io/device.css/" data-via="locationsphere">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
