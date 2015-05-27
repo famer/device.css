@@ -53,7 +53,7 @@ Example: `<div class="iphone-6 black landscape"></div>`
 - Macbook Air
 	- base CSS class: *macbook-air*
 - iMac
-	- base CSS class: *mac*
+	- base CSS class: *imac*
 
 ### Requirements
 Safari, Chrome, Opera, FireFox  
