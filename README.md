@@ -7,7 +7,7 @@ Device.css is a project that helps you to display app screenshots including phon
 
 **[Watch the Device.css video demo here](https://vimeo.com/129261286)**  
 
-<a href="https://vimeo.com/129261286"></a>
+<a href="https://vimeo.com/129261286">![device.css vimeo image](https://raw.githubusercontent.com/famer/device.css/gh-pages/identity/image.png)</a>
 
 ## Usage
 * Include target CSS file to your page, like `device.css`
