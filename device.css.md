@@ -47,12 +47,13 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
 ### Usage
 
 1. Include `iphone6.css` or generate your custom subset of devices.
-`<link rel="stylesheet" type="text/css" href="css/iphone6.css">`
+`<link rel="stylesheet" type="text/css" href="css/device.css">`
 2. Add model name from the [list](#modelslist) to your div's classes  
 `<div class="iphone-6 white"></div>`
 3. You can scale the phone using font-size style, with font-size of 12px being 100% screen size, 6px - 50% etc.  
 `<div class="iphone-6 white" style="font-size:6px"></div>`
 
+{: #modelslist }
 ### Supported devices list with options:
 
 - iPhone 6
