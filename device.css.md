@@ -14,9 +14,17 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
 	<link rel="stylesheet" href="device.css" type="text/css">
 
 	<div class="iphone-6 white"></div>
+
+
 	
 
 ### Results
+<div class="macbook-air" style="font-size: 4px; vertical-align: middle;">
+	<video width="100%" autoplay loop >
+	  <source src="docs/demo.mp4" type="video/mp4" />
+		Video is not supported
+	</video>
+</div>
 
 
 <div class="iphone-6 white" style="font-size: 4px; vertical-align: middle;">
@@ -28,6 +36,11 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
 	   <img src="background/screenshots/main_screen_detail.png"/>
 	</video>
 </div>
+<div class="mac" style="font-size: 4px;"></div>
+
+<div class="iphone-6 white landscape" style="font-size: 4px;"></div>
+
+<div class="ipad-mini-3 white" style="font-size: 4px;"></div>
 <br>
 <p>Check out more extensive demo <a href="http://codepen.io/waterplea/pen/jPqBdr">here</a>.</p>
 
