@@ -3,8 +3,6 @@ layout: page
 #title: Device.css
 permalink: /
 ---
-<a href="https://github.com/famer/device.css"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
-
 ### About
 Device.css is a project that helps you to display app screenshots including phones, tablets and screens easily with pure CSS file sized 29Kb only.
 They are scalable and use CSS3 styles to enable you to use vector graphics that looks sharp on any resolution. 
@@ -71,8 +69,9 @@ Example: `<div class="iphone-6 black landscape"></div>`
 	- base CSS class: *imac*
 
 ### Requirements
-Safari, Chrome, Opera, FireFox  
-IE 10+ 
+Safari 6.1+, Chrome 26.0+, Opera 15.0, FireFox 16.0+, IE 10+  
+iOS Safari 7.1+  
+Android Browser 4.4+, Chrome for Android 42+
 
 ### Sources
 Sources available in repository [famer/device.css](http://github.com/famer/device.css).
@@ -88,6 +87,13 @@ Device.css and its sources are released under [MIT](http://opensource.org/licens
 ### Share
 
 <div id="fb-root"></div>
+<a href="https://github.com/famer/device.css"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+
+<div style="float:left; margin: 0 10px 0 0;">
+	<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+	<script type="IN/Share" data-counter="right"></script>
+</div>
+
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -95,11 +101,6 @@ Device.css and its sources are released under [MIT](http://opensource.org/licens
   js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=154079051320662";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
-<div style="float:left; margin: 0 10px 0 0;">
-	<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-	<script type="IN/Share" data-counter="right"></script>
-</div>
 
 <div style="float:left; margin: -4px 10px 0 0;" class="fb-like" data-href="http://famer.github.io/device.css/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
 <a style="float:left;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://famer.github.io/device.css/" data-via="locationsphere">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
