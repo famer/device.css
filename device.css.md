@@ -45,7 +45,7 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
 
 ### Usage
 
-1. Include `iphone6.css` or generate your custom subset of devices.
+1. Include `device.css` or generate your custom subset of devices.
 `<link rel="stylesheet" type="text/css" href="css/device.css">`
 2. Add model name from the [list](#modelslist) to your div's classes  
 `<div class="iphone-6 white"></div>`
