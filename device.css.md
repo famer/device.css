@@ -26,10 +26,10 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
 </div>
 
 
-<div class="iphone-6 white" style="font-size: 4px; vertical-align: middle;">
+<div class="iphone-6 silver" style="font-size: 4px; vertical-align: middle;">
         <img src="background/screenshots/main_screen_detail.png"/>
 </div>
-<div class="iphone-6 black" style="font-size: 4px; vertical-align: middle;">
+<div class="iphone-6 space-gray" style="font-size: 4px; vertical-align: middle;">
 	<video width="250" autoplay loop >
 	  <source src="background/videos/fnscreencast.mp4" type="video/mp4" />
 	   <img src="background/screenshots/main_screen_detail.png"/>
@@ -37,9 +37,9 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
 </div>
 <div class="mac" style="font-size: 4px;"></div>
 
-<div class="iphone-6 white landscape" style="font-size: 4px;"></div>
+<div class="iphone-6 silver landscape" style="font-size: 4px;"></div>
 
-<div class="ipad-mini-3 white" style="font-size: 4px;"></div>
+<div class="ipad-mini-3 gold" style="font-size: 4px;"></div>
 <br>
 <p>Check out more extensive demo <a href="http://codepen.io/waterplea/pen/jPqBdr">here</a>.</p>
 
