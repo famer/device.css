@@ -56,17 +56,17 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
 ### Supported devices list with options:
 
 - iPhone 6
-	- base CSS class: *iphone-6*
-	- required color scheme CSS class *space-gray* or *silver*
-	- optional CSS class *landscape* for horizontal orientation  
+	- base CSS class: **iphone-6**
+	- required color scheme CSS class **space-gray** or **silver**
+	- optional CSS class **landscape** for horizontal orientation  
 Example: `<div class="iphone-6 space-gray landscape"></div>`
 - iPad Mini 3
-	- base CSS class: *ipad-mini-3*
-	- required color scheme CSS class *space-gray*, *silver* or *gold*
+	- base CSS class: **ipad-mini-3**
+	- required color scheme CSS class **space-gray**, **silver** or **gold**
 - Macbook Air
-	- base CSS class: *macbook-air*
+	- base CSS class: **macbook-air**
 - iMac
-	- base CSS class: *imac*
+	- base CSS class: **imac**
 
 ### Requirements
 Safari 6.1+, Chrome 26.0+, Opera 15.0, FireFox 16.0+, IE 10+  
