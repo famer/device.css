@@ -20,7 +20,7 @@ List of existing classes:
 * macbook-air
 * imac
  
-You can add color and orientation classes optionaly. Colors: black, white, gold. Orientations: landscape.
+You can add color and orientation classes optionaly. Colors: space-gray, silver, gold. Orientations: landscape.
 
 
 ## License
