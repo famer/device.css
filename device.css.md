@@ -12,7 +12,7 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
 
 	<link rel="stylesheet" href="device.css" type="text/css">
 
-	<div class="iphone-6 white"></div>
+	<div class="iphone-6 silver"></div>
 
 
 	
@@ -48,21 +48,21 @@ They are scalable and use CSS3 styles to enable you to use vector graphics that 
 1. Include `device.css` or generate your custom subset of devices.
 `<link rel="stylesheet" type="text/css" href="css/device.css">`
 2. Add model name from the [list](#modelslist) to your div's classes  
-`<div class="iphone-6 white"></div>`
+`<div class="iphone-6 silver"></div>`
 3. You can scale the phone using font-size style, with font-size of 12px being 100% screen size, 6px - 50% etc.  
-`<div class="iphone-6 white" style="font-size:6px"></div>`
+`<div class="iphone-6 silver" style="font-size:6px"></div>`
 
 {: #modelslist }
 ### Supported devices list with options:
 
 - iPhone 6
 	- base CSS class: *iphone-6*
-	- required color scheme CSS class *black* or *white*
+	- required color scheme CSS class *space-gray* or *silver*
 	- optional CSS class *landscape* for horizontal orientation  
-Example: `<div class="iphone-6 black landscape"></div>`
+Example: `<div class="iphone-6 space-gray landscape"></div>`
 - iPad Mini 3
 	- base CSS class: *ipad-mini-3*
-	- required color scheme CSS class *black*, *white* or *gold*
+	- required color scheme CSS class *space-gray*, *silver* or *gold*
 - Macbook Air
 	- base CSS class: *macbook-air*
 - iMac
