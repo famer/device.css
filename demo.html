@@ -8,17 +8,18 @@
 <body>
 
 	<input type="checkbox" name="orientation" value="landscape" /> Landscape <br />
-	<input type="radio" name="color" value="white" checked /> White <br />
-	<input type="radio" name="color" value="black" /> Black <br />
+	<input type="radio" name="color" value="silver" checked /> Silver <br />
+	<input type="radio" name="color" value="space-gray" /> Space Gray <br />
 	<input type="radio" name="color" value="gold" /> Gold <br />
 
 
    <input type="radio" name="device" value="iphone-6" checked> iPhone 6<Br>
    <input type="radio" name="device" value="ipad-mini-3"> iPad mini 3<Br>
    <input type="radio" name="device" value="macbook-air"> MacBook Air<Br>
-   <input type="radio" name="device" value="mac"> iMac<Br>
+   <input type="radio" name="device" value="imac"> iMac<Br>
 
-   <textarea id="code"></textarea>
+   <textarea cols="50" id="code"></textarea>
+   <br />
    <div id="device" class="">content</div>
 <script>
 $(function() {
@@ -34,22 +35,12 @@ $(function() {
                       
 </script>
 
+<style>
+#device {
+font-size: 4px;
+}
+</style>
 
-<div class="ipad-mini-3 white" style="font-size: 3px;">
-	<img src="background/screenshots/main_screen_detail_ipad.png"/>
-</div>
-<div class="iphone-6 white" style="font-size: 5px;">
-	<img  src="background/screenshots/main_screen.png"/>
-</div>
-<div class="iphone-6 white" style="font-size: 5px;">
-	<img  src="background/screenshots/removed_places.png"/>
-</div>
 
-	<div class="iphone-6 black"></div>
-	<div class="iphone-6 white"><img style="width:100%" src="background/Places.png"/></div>
-	<div style="display: inline-block">
-		<div class="iphone-6 black landscape"></div><br>
-		<div class="iphone-6 white landscape"></div>
-	</div>
 </body>
 </html>
