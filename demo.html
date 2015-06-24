@@ -1,36 +1,86 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>CSS Phone Demo</title>
-	<link rel="stylesheet" type="text/css" href="css/device.css">
-	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-</head>
-<body>
+---
+layout: page
+title: Live demo
+---
+<link rel="stylesheet" type="text/css" href="css/device.css">
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 
-	<input type="checkbox" name="orientation" value="landscape" /> Landscape <br />
-	<input type="radio" name="color" value="silver" checked /> Silver <br />
-	<input type="radio" name="color" value="space-gray" /> Space Gray <br />
-	<input type="radio" name="color" value="gold" /> Gold <br />
+<input type="radio" name="device" value="iphone-6" checked> iPhone 6<Br>
+<input type="radio" name="device" value="ipad-mini-3"> iPad mini 3<Br>
+<input type="radio" name="device" value="macbook-air"> MacBook Air<Br>
+<input type="radio" name="device" value="imac"> iMac<Br>
 
+<input type="radio" name="color" value="silver" checked /> Silver <br />
+<input type="radio" name="color" value="space-gray" /> Space Gray <br />
+<input type="radio" name="color" value="gold" /> Gold <br />
 
-   <input type="radio" name="device" value="iphone-6" checked> iPhone 6<Br>
-   <input type="radio" name="device" value="ipad-mini-3"> iPad mini 3<Br>
-   <input type="radio" name="device" value="macbook-air"> MacBook Air<Br>
-   <input type="radio" name="device" value="imac"> iMac<Br>
+<input type="checkbox" name="orientation" value="landscape" /> Landscape <br />
 
-   <textarea cols="50" id="code"></textarea>
-   <br />
-   <div id="device" class="">content</div>
+<!--Size: <input id="size" type="range" value="4" name="font-size" min="2" max="12">-->
+<br />
+<textarea cols="80" id="code"></textarea>
+<br />
+
+<div id="device" class="">content</div>
+
 <script>
+var dt = {}
+
+dt['iphone-6'] = {}
+dt['iphone-6']['silver'] = {}
+dt['iphone-6']['silver']['landscape'] = { title: "iPhone 6 Silver landscape" }
+dt['iphone-6']['silver']['normal'] = { title: "iPhone 6 Silver normal" }
+dt['iphone-6']['space-gray'] = {}
+dt['iphone-6']['space-gray']['landscape'] = { title: "iPhone 6 Space Gray landscape" }
+dt['iphone-6']['space-gray']['normal'] = { title: "iPhone 6 Space Gray normal" }
+
+dt['ipad-mini-3'] = {}
+dt['ipad-mini-3']['silver'] = {}
+dt['ipad-mini-3']['silver']['normal'] = { title: "iPad mini 3 Silver normal" }
+dt['ipad-mini-3']['space-gray'] = {}
+dt['ipad-mini-3']['space-gray']['normal'] = { title: "iPad mini 3 Space Gray normal" }
+dt['ipad-mini-3']['gold']= {}
+dt['ipad-mini-3']['gold']['normal'] = { title: "iPad mini 3 Gold normal" }
+
+dt['macbook-air'] = { title: "MacBook Air"}
+
+dt['imac'] = { title: "iMac" }
+
+for (i in dt) {
+	console.log(i);
+}
+
 $(function() {
+	$('input[name=device]').change(function() {
+		$('input[name="color"]').prop('disabled', true);
+		for ( i in dt[$('input[name="device"]:checked').val()] ) {
+			$('input[name="color"][value='+i+']').prop('disabled', false);
+		}
+		$('input[name=color]:enabled:eq(0)').prop("checked", true).change();
+	})
+
+	$('input[name=color]').change(function() {
+		$('input[name="orientation"]').prop('disabled', true);
+		for ( i in dt[$('input[name="device"]:checked').val()][$('input[name="color"]:checked').val()] ) {
+			$('input[name="orientation"][value='+i+']').prop('disabled', false);
+		} 
+	})
+
+	$('#size').change(function () {
+		console.log($(this).val())
+		$('#device').css("font-size", $(this).val());
+	})
+
+	
     $('input').change(function() {
         $('#device').removeClass();
-        $('#device').addClass($('input[name="device"]:checked').val())
-        $('#device').addClass($('input[name="color"]:checked').val())
-        $('#device').addClass($('input[name="orientation"]:checked').val())
+        $('#device').addClass($('input[name="device"]:enabled:checked').val())
+        $('#device').addClass($('input[name="color"]:enabled:checked').val())
+        $('#device').addClass($('input[name="orientation"]:enabled:checked').val())
         $('#code').val($('#device')[0].outerHTML);
     });
     $('input').change();
+    
 });
                       
 </script>
@@ -42,5 +92,3 @@ font-size: 4px;
 </style>
 
 
-</body>
-</html>
