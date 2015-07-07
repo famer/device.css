@@ -5,23 +5,23 @@ title: Live demo
 <link rel="stylesheet" type="text/css" href="css/device.css">
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 
-<input type="radio" name="device" value="iphone-6" checked> iPhone 6<Br>
-<input type="radio" name="device" value="ipad-mini-3"> iPad mini 3<Br>
-<input type="radio" name="device" value="macbook-air"> MacBook Air<Br>
-<input type="radio" name="device" value="imac"> iMac<Br>
-
-<input type="radio" name="color" value="silver" checked /> Silver <br />
-<input type="radio" name="color" value="space-gray" /> Space Gray <br />
-<input type="radio" name="color" value="gold" /> Gold <br />
-
-<input type="checkbox" name="orientation" value="landscape" /> Landscape <br />
+<input type="radio" name="device" value="iphone-6" checked> iPhone 6 
+<input type="radio" name="device" value="ipad-mini-3"> iPad mini 3 
+<input type="radio" name="device" value="macbook-air"> MacBook Air 
+<input type="radio" name="device" value="imac"> iMac 
+<br />
+<input type="radio" name="color" value="silver" checked /> Silver  
+<input type="radio" name="color" value="space-gray" /> Space Gray  
+<input type="radio" name="color" value="gold" /> Gold  
+<br />
+<input type="checkbox" name="orientation" value="landscape" /> Landscape  
 
 <!--Size: <input id="size" type="range" value="4" name="font-size" min="2" max="12">-->
 <br />
-<textarea cols="80" id="code"></textarea>
+<textarea cols="70" rows="1" id="code"></textarea>
 <br />
 
-<div id="device" class="">content</div>
+<div id="device" class=""></div>
 
 <script>
 var dt = {}
@@ -88,6 +88,15 @@ $(function() {
 <style>
 #device {
 font-size: 4px;
+}
+#code {
+font-family: "Courier New", Courier, monospace;
+display: inline-block;
+color: #444;
+padding: 10px;
+font-size: 18px;
+border-radius: 5px;
+background: #ccc
 }
 </style>
 
